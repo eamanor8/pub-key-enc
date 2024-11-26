@@ -1,0 +1,8 @@
+Original Message: This is a contract for $20,000
+Signature (hex): 0x1cf5e8b294fd34ea0b8f3d07a4d80f30255999952c2932d17cd42f11fd4eb334781e6a6a7352296648fae42a04356db8fb04d95f12cd71bcf62d7b217b81ca46
+Is the signature valid? True
+
+Modified Message: This is a contract for $20,001
+Is the original signature valid for the modified message? False
+New Signature (hex): 0x62a07b9012758da75abc9f8b9d2ba3117f0b1277e52a376e5b0c01958405f9a83fd9f45109e6f8eb88fad2e1f0b505eae7411ae1f65342899b64ec13782d8859
+Is the new signature valid for the modified message? True

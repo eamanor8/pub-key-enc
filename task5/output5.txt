@@ -1,0 +1,9 @@
+Custom Message: Thanksgiving break is almost here!
+Custom Signature (hex): 0x613ebd81575cdf0f3ad46a83fceb5b3380dca0ffdcd7c2817630d41d2b8c988b78316cf7a5c1c21afac2fb1391bc8cdf333d87c6d00c881d38134c848af2b7de
+Is the custom signature valid? True
+
+********* Signing times for different file sizes *********
+Time to sign a file of size 1024 bytes: 0.00206113 seconds
+Time to sign a file of size 102400 bytes: 0.00338674 seconds
+Time to sign a file of size 1048576 bytes: 0.01844883 seconds
+
