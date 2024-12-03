@@ -20,7 +20,7 @@ def verify_signature(msg, signature, N, e):
     return msg_int == verified_msg_int
 
 # Original message and signing
-original_message = "This is a contract for $20,000"
+original_message = "This is a contact for $20,000"
 signature = sign_message(original_message, N, d)
 print("Original Message:", original_message)
 print("Signature (hex):", hex(signature))
@@ -30,7 +30,7 @@ is_valid = verify_signature(original_message, signature, N, e)
 print("Is the signature valid?", is_valid)
 
 # Task 4 Q2: Modifying the message
-modified_message = "This is a contract for $20,001"
+modified_message = "This is a contact for $20,001"
 print("\nModified Message:", modified_message)
 
 # Verify the original signature against the modified message
